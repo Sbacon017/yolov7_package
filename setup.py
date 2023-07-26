@@ -4,7 +4,7 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-requirements = ['pyyaml', 'opencv-python', 'torch', 'torchvision', 'requests', 'wget', 'tqdm']
+requirements = ['pyyaml', 'opencv-python-headless', 'torch', 'torchvision', 'requests', 'wget', 'tqdm']
 
 setuptools.setup(
     name="yolov7_package",
